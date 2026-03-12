@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-even: #5992db;
+  --color-even-dark: #4a7bb8;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
